@@ -1,0 +1,9 @@
+weight: 4
+title: "Web and App Development"
+description: >
+  <ul class="list-style-none">
+    <li>Optimizing business with innovative apps, web development</li>
+    <li>SEO-driven digital marketing to boost user engagement</li>
+  </ul>
+image: "img/carousel/template-easy-code.png"
+#href: "https://devcows.github.io/hugo-universal-theme/"
