@@ -26,9 +26,12 @@
                             {{ with $element.url }}
                             <a href="{{ $element.url }}">
                             {{ end }}
-                                <div class="icon">
+                            <div class="icon">
+                                <img src="{{ $element.icon }}" alt="icon">
+                              </div>
+                                <!-- <div class="icon">
                                     <i class="{{ $element.icon }}"></i>
-                                </div>
+                                </div> -->
                             {{ with $element.url }}
                             </a>
                             {{ end }}
