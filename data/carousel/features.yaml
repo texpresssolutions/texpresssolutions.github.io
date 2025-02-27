@@ -2,7 +2,7 @@ weight: 2
 title: "Industrial Embedded Solutions"
 description: "<p>Innovative embedded systems designed to optimize performance, reliability, and efficiency in industrial automation.</p>"
 image: "img/carousel/template-mac.png"
-href: "faq"
+#href: "faq"
 
 # description: >
 # <ul class="list-style-none">
