@@ -1,0 +1,15 @@
+{{ if isset .Site.Params "chooseus" }}
+{{ if .Site.Params.chooseus.enable }}
+<section class="bar no-mb color-white text-center">
+    <div class="dark-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-uppercase">{{ .Site.Params.chooseus.title | markdownify }}</h3>
+                <p class="lead">{{ .Site.Params.chooseus.subtitle | markdownify }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

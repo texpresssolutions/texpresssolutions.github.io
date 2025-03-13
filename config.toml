@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 summaryLength = 70
 
 # Define the number of posts per page
-paginate = 10
+pagination.pagerSize = 10
 
 # not pluralize title pages by default
 pluralizelisttitles = false
@@ -482,6 +482,7 @@ id = ""
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
+    
 
 [params.features]
     enable = true
@@ -505,6 +506,12 @@ id = ""
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
     link_url = "#"
     link_text = "Check other homepages"
+
+[params.chooseus]
+    enable = true
+    title = "Why choose US"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+       
 
 [params.clients]
     enable = true
